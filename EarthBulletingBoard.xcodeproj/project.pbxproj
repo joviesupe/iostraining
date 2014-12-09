@@ -10,11 +10,15 @@
 		52BC9E191A368D4C008B688B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E181A368D4C008B688B /* main.m */; };
 		52BC9E1C1A368D4C008B688B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E1B1A368D4C008B688B /* AppDelegate.m */; };
 		52BC9E1F1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */; };
-		52BC9E221A368D4C008B688B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E211A368D4C008B688B /* ViewController.m */; };
 		52BC9E251A368D4C008B688B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E231A368D4C008B688B /* Main.storyboard */; };
 		52BC9E271A368D4C008B688B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E261A368D4C008B688B /* Images.xcassets */; };
 		52BC9E2A1A368D4C008B688B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E281A368D4C008B688B /* LaunchScreen.xib */; };
 		52BC9E361A368D4C008B688B /* EarthBulletingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E351A368D4C008B688B /* EarthBulletingBoardTests.m */; };
+		52BC9E441A369D40008B688B /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E431A369D40008B688B /* LoginView.xib */; };
+		52BC9E4A1A36A664008B688B /* EBBBaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E491A36A664008B688B /* EBBBaseUIViewController.m */; };
+		52BC9E4D1A36A6BD008B688B /* EBBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E4C1A36A6BD008B688B /* EBBLoginViewController.m */; };
+		52BC9E4E1A36C4BF008B688B /* EBBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E461A36A36E008B688B /* EBBLoginView.m */; };
+		52BC9E521A36D6EB008B688B /* EBBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E511A36D6EB008B688B /* EBBHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,21 @@
 		52BC9E1A1A368D4C008B688B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52BC9E1B1A368D4C008B688B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52BC9E1E1A368D4C008B688B /* EarthBulletingBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthBulletingBoard.xcdatamodel; sourceTree = "<group>"; };
-		52BC9E201A368D4C008B688B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52BC9E211A368D4C008B688B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52BC9E241A368D4C008B688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52BC9E261A368D4C008B688B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52BC9E291A368D4C008B688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		52BC9E2F1A368D4C008B688B /* EarthBulletingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthBulletingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BC9E341A368D4C008B688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BC9E351A368D4C008B688B /* EarthBulletingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthBulletingBoardTests.m; sourceTree = "<group>"; };
+		52BC9E431A369D40008B688B /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = Xibs/LoginView.xib; sourceTree = "<group>"; };
+		52BC9E451A36A36E008B688B /* EBBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBLoginView.h; path = Views/EBBLoginView.h; sourceTree = "<group>"; };
+		52BC9E461A36A36E008B688B /* EBBLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBLoginView.m; path = Views/EBBLoginView.m; sourceTree = "<group>"; };
+		52BC9E481A36A664008B688B /* EBBBaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBBaseUIViewController.h; path = Controllers/EBBBaseUIViewController.h; sourceTree = "<group>"; };
+		52BC9E491A36A664008B688B /* EBBBaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBBaseUIViewController.m; path = Controllers/EBBBaseUIViewController.m; sourceTree = "<group>"; };
+		52BC9E4B1A36A6BD008B688B /* EBBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBLoginViewController.h; path = Controllers/EBBLoginViewController.h; sourceTree = "<group>"; };
+		52BC9E4C1A36A6BD008B688B /* EBBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBLoginViewController.m; path = Controllers/EBBLoginViewController.m; sourceTree = "<group>"; };
+		52BC9E501A36D6EB008B688B /* EBBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBHomeViewController.h; path = Controllers/EBBHomeViewController.h; sourceTree = "<group>"; };
+		52BC9E511A36D6EB008B688B /* EBBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBHomeViewController.m; path = Controllers/EBBHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +96,14 @@
 			children = (
 				52BC9E1A1A368D4C008B688B /* AppDelegate.h */,
 				52BC9E1B1A368D4C008B688B /* AppDelegate.m */,
-				52BC9E201A368D4C008B688B /* ViewController.h */,
-				52BC9E211A368D4C008B688B /* ViewController.m */,
+				52BC9E401A3699BD008B688B /* Models */,
+				52BC9E3F1A3699B4008B688B /* Views */,
+				52BC9E411A3699C7008B688B /* Controllers */,
+				52BC9E421A3699E4008B688B /* Xibs */,
 				52BC9E231A368D4C008B688B /* Main.storyboard */,
+				52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */,
 				52BC9E261A368D4C008B688B /* Images.xcassets */,
 				52BC9E281A368D4C008B688B /* LaunchScreen.xib */,
-				52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */,
 				52BC9E161A368D4C008B688B /* Supporting Files */,
 			);
 			path = EarthBulletingBoard;
@@ -120,6 +133,43 @@
 				52BC9E341A368D4C008B688B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BC9E3F1A3699B4008B688B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E451A36A36E008B688B /* EBBLoginView.h */,
+				52BC9E461A36A36E008B688B /* EBBLoginView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52BC9E401A3699BD008B688B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		52BC9E411A3699C7008B688B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E481A36A664008B688B /* EBBBaseUIViewController.h */,
+				52BC9E491A36A664008B688B /* EBBBaseUIViewController.m */,
+				52BC9E4B1A36A6BD008B688B /* EBBLoginViewController.h */,
+				52BC9E4C1A36A6BD008B688B /* EBBLoginViewController.m */,
+				52BC9E501A36D6EB008B688B /* EBBHomeViewController.h */,
+				52BC9E511A36D6EB008B688B /* EBBHomeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		52BC9E421A3699E4008B688B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E431A369D40008B688B /* LoginView.xib */,
+			);
+			name = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +216,7 @@
 		52BC9E0B1A368D4C008B688B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EBB;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Jovie Francisco Supe";
 				TargetAttributes = {
@@ -204,6 +255,7 @@
 			files = (
 				52BC9E251A368D4C008B688B /* Main.storyboard in Resources */,
 				52BC9E2A1A368D4C008B688B /* LaunchScreen.xib in Resources */,
+				52BC9E441A369D40008B688B /* LoginView.xib in Resources */,
 				52BC9E271A368D4C008B688B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,8 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BC9E1C1A368D4C008B688B /* AppDelegate.m in Sources */,
+				52BC9E4A1A36A664008B688B /* EBBBaseUIViewController.m in Sources */,
 				52BC9E1F1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld in Sources */,
-				52BC9E221A368D4C008B688B /* ViewController.m in Sources */,
+				52BC9E4D1A36A6BD008B688B /* EBBLoginViewController.m in Sources */,
+				52BC9E4E1A36C4BF008B688B /* EBBLoginView.m in Sources */,
+				52BC9E521A36D6EB008B688B /* EBBHomeViewController.m in Sources */,
 				52BC9E191A368D4C008B688B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +473,7 @@
 				52BC9E3B1A368D4C008B688B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52BC9E3C1A368D4C008B688B /* Build configuration list for PBXNativeTarget "EarthBulletingBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +482,7 @@
 				52BC9E3E1A368D4C008B688B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
