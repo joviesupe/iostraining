@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BC9E191A368D4C008B688B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E181A368D4C008B688B /* main.m */; };
+		52BC9E1C1A368D4C008B688B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E1B1A368D4C008B688B /* AppDelegate.m */; };
+		52BC9E1F1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */; };
+		52BC9E221A368D4C008B688B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E211A368D4C008B688B /* ViewController.m */; };
+		52BC9E251A368D4C008B688B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E231A368D4C008B688B /* Main.storyboard */; };
+		52BC9E271A368D4C008B688B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E261A368D4C008B688B /* Images.xcassets */; };
+		52BC9E2A1A368D4C008B688B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E281A368D4C008B688B /* LaunchScreen.xib */; };
+		52BC9E361A368D4C008B688B /* EarthBulletingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E351A368D4C008B688B /* EarthBulletingBoardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BC9E301A368D4C008B688B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BC9E0B1A368D4C008B688B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BC9E121A368D4C008B688B;
+			remoteInfo = EarthBulletingBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52BC9E131A368D4C008B688B /* EarthBulletingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthBulletingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BC9E171A368D4C008B688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BC9E181A368D4C008B688B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52BC9E1A1A368D4C008B688B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52BC9E1B1A368D4C008B688B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52BC9E1E1A368D4C008B688B /* EarthBulletingBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthBulletingBoard.xcdatamodel; sourceTree = "<group>"; };
+		52BC9E201A368D4C008B688B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52BC9E211A368D4C008B688B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52BC9E241A368D4C008B688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BC9E261A368D4C008B688B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52BC9E291A368D4C008B688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52BC9E2F1A368D4C008B688B /* EarthBulletingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthBulletingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BC9E341A368D4C008B688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BC9E351A368D4C008B688B /* EarthBulletingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthBulletingBoardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BC9E101A368D4C008B688B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BC9E2C1A368D4C008B688B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BC9E0A1A368D4C008B688B = {
+			isa = PBXGroup;
+			children = (
+				52BC9E151A368D4C008B688B /* EarthBulletingBoard */,
+				52BC9E321A368D4C008B688B /* EarthBulletingBoardTests */,
+				52BC9E141A368D4C008B688B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BC9E141A368D4C008B688B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E131A368D4C008B688B /* EarthBulletingBoard.app */,
+				52BC9E2F1A368D4C008B688B /* EarthBulletingBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BC9E151A368D4C008B688B /* EarthBulletingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E1A1A368D4C008B688B /* AppDelegate.h */,
+				52BC9E1B1A368D4C008B688B /* AppDelegate.m */,
+				52BC9E201A368D4C008B688B /* ViewController.h */,
+				52BC9E211A368D4C008B688B /* ViewController.m */,
+				52BC9E231A368D4C008B688B /* Main.storyboard */,
+				52BC9E261A368D4C008B688B /* Images.xcassets */,
+				52BC9E281A368D4C008B688B /* LaunchScreen.xib */,
+				52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */,
+				52BC9E161A368D4C008B688B /* Supporting Files */,
+			);
+			path = EarthBulletingBoard;
+			sourceTree = "<group>";
+		};
+		52BC9E161A368D4C008B688B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E171A368D4C008B688B /* Info.plist */,
+				52BC9E181A368D4C008B688B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BC9E321A368D4C008B688B /* EarthBulletingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E351A368D4C008B688B /* EarthBulletingBoardTests.m */,
+				52BC9E331A368D4C008B688B /* Supporting Files */,
+			);
+			path = EarthBulletingBoardTests;
+			sourceTree = "<group>";
+		};
+		52BC9E331A368D4C008B688B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BC9E341A368D4C008B688B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BC9E121A368D4C008B688B /* EarthBulletingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BC9E391A368D4C008B688B /* Build configuration list for PBXNativeTarget "EarthBulletingBoard" */;
+			buildPhases = (
+				52BC9E0F1A368D4C008B688B /* Sources */,
+				52BC9E101A368D4C008B688B /* Frameworks */,
+				52BC9E111A368D4C008B688B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthBulletingBoard;
+			productName = EarthBulletingBoard;
+			productReference = 52BC9E131A368D4C008B688B /* EarthBulletingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BC9E2E1A368D4C008B688B /* EarthBulletingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BC9E3C1A368D4C008B688B /* Build configuration list for PBXNativeTarget "EarthBulletingBoardTests" */;
+			buildPhases = (
+				52BC9E2B1A368D4C008B688B /* Sources */,
+				52BC9E2C1A368D4C008B688B /* Frameworks */,
+				52BC9E2D1A368D4C008B688B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BC9E311A368D4C008B688B /* PBXTargetDependency */,
+			);
+			name = EarthBulletingBoardTests;
+			productName = EarthBulletingBoardTests;
+			productReference = 52BC9E2F1A368D4C008B688B /* EarthBulletingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BC9E0B1A368D4C008B688B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jovie Francisco Supe";
+				TargetAttributes = {
+					52BC9E121A368D4C008B688B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					52BC9E2E1A368D4C008B688B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 52BC9E121A368D4C008B688B;
+					};
+				};
+			};
+			buildConfigurationList = 52BC9E0E1A368D4C008B688B /* Build configuration list for PBXProject "EarthBulletingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BC9E0A1A368D4C008B688B;
+			productRefGroup = 52BC9E141A368D4C008B688B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BC9E121A368D4C008B688B /* EarthBulletingBoard */,
+				52BC9E2E1A368D4C008B688B /* EarthBulletingBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BC9E111A368D4C008B688B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BC9E251A368D4C008B688B /* Main.storyboard in Resources */,
+				52BC9E2A1A368D4C008B688B /* LaunchScreen.xib in Resources */,
+				52BC9E271A368D4C008B688B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BC9E2D1A368D4C008B688B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BC9E0F1A368D4C008B688B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BC9E1C1A368D4C008B688B /* AppDelegate.m in Sources */,
+				52BC9E1F1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld in Sources */,
+				52BC9E221A368D4C008B688B /* ViewController.m in Sources */,
+				52BC9E191A368D4C008B688B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BC9E2B1A368D4C008B688B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BC9E361A368D4C008B688B /* EarthBulletingBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BC9E311A368D4C008B688B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BC9E121A368D4C008B688B /* EarthBulletingBoard */;
+			targetProxy = 52BC9E301A368D4C008B688B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BC9E231A368D4C008B688B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BC9E241A368D4C008B688B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BC9E281A368D4C008B688B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BC9E291A368D4C008B688B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BC9E371A368D4C008B688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52BC9E381A368D4C008B688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BC9E3A1A368D4C008B688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthBulletingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BC9E3B1A368D4C008B688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarthBulletingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52BC9E3D1A368D4C008B688B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EarthBulletingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthBulletingBoard.app/EarthBulletingBoard";
+			};
+			name = Debug;
+		};
+		52BC9E3E1A368D4C008B688B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EarthBulletingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthBulletingBoard.app/EarthBulletingBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BC9E0E1A368D4C008B688B /* Build configuration list for PBXProject "EarthBulletingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BC9E371A368D4C008B688B /* Debug */,
+				52BC9E381A368D4C008B688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BC9E391A368D4C008B688B /* Build configuration list for PBXNativeTarget "EarthBulletingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BC9E3A1A368D4C008B688B /* Debug */,
+				52BC9E3B1A368D4C008B688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52BC9E3C1A368D4C008B688B /* Build configuration list for PBXNativeTarget "EarthBulletingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BC9E3D1A368D4C008B688B /* Debug */,
+				52BC9E3E1A368D4C008B688B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52BC9E1E1A368D4C008B688B /* EarthBulletingBoard.xcdatamodel */,
+			);
+			currentVersion = 52BC9E1E1A368D4C008B688B /* EarthBulletingBoard.xcdatamodel */;
+			path = EarthBulletingBoard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52BC9E0B1A368D4C008B688B /* Project object */;
+}
