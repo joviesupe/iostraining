@@ -23,15 +23,20 @@
     // add login view to view
     [self.view addSubview:self.viewPost];
     self.viewPost.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height);
-    
+   /*
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *user = [defaults objectForKey:@"users"];
     NSString *title = [defaults objectForKey:@"titles"];
     NSString *post = [defaults objectForKey:@"posts"];
     self.viewPost.title.text=title;
-    self.viewPost.user.text=user;
+    self.viewPost.user.text=user; 
     self.viewPost.post.text=post;
-    
+    */
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.viewPost.title.text =  [defaults objectForKey:@"title"];
+    self.viewPost.user.text =  [defaults objectForKey:@"user"];
+    self.viewPost.post.text =  [defaults objectForKey:@"post"];
+    NSLog(@"Jovie");
 
 }
 

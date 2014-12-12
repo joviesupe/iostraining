@@ -39,7 +39,6 @@ NSMutableArray *users;
         [defaults setObject:titles forKey:@"titles"];
         [defaults setObject:posts forKey:@"posts"];
         [defaults setObject:users forKey:@"users"];
-        
         [defaults synchronize];
     }
 
@@ -50,7 +49,7 @@ NSMutableArray *users;
     // add login view to view
     [self.view addSubview:self.homeView];
     self.homeView.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height);
-    
+     self.homeView.label.text=[defaults objectForKey:@"username"];
     self.homeView.delegate=self;
     
     self.homeView.tableView.delegate=self;
@@ -113,6 +112,22 @@ NSMutableArray *users;
 #pragma mark -UITableViewDelegate
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"Clicked");
+    
+    // init userdefaults
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    // retrieve users, posts, titles from userdefaults
+    NSMutableArray *persistentTitles = [[defaults arrayForKey:@"titles"] mutableCopy];
+    NSMutableArray *persistentPosts = [[defaults arrayForKey:@"posts"] mutableCopy];
+    NSMutableArray *persistentUsers = [[defaults arrayForKey:@"users"] mutableCopy];
+    
+    NSString *title = [persistentTitles objectAtIndex:indexPath.row];
+    NSString *post = [persistentPosts objectAtIndex:indexPath.row];
+    NSString *user  = [persistentUsers objectAtIndex:indexPath.row];
+    
+    [defaults setObject:title forKey:@"title"];
+     [defaults setObject:post forKey:@"post"];
+     [defaults setObject:user forKey:@"user"];
   [self performSegueWithIdentifier:@"HomeToViewSegue" sender: nil];
 }
 
