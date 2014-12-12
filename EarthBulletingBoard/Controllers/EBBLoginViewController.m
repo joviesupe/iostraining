@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     
     // load xib into view
@@ -34,9 +35,8 @@
     
     // add login view to view
     [self.view addSubview:self.loginView];
-    
+    self.loginView.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.view.frame.size.height);
     users =[[NSArray alloc] initWithObjects:@"jovie",@"francisco", nil];
-    
     passwords =[[NSMutableArray alloc] initWithObjects:@"jovie",@"francisco", nil];
     
 }
@@ -60,6 +60,9 @@
             NSInteger passwordIndex = [passwords indexOfObject:inputPassword];
             
             if(userIndex==passwordIndex){
+                NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+                [defaults setObject:inputUsername forKey:@"username"];
+                
                 [self performSegueWithIdentifier:@"LoginToHomeSegue" sender:self];
             }
             else

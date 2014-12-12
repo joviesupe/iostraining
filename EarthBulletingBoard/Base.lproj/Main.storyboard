@@ -57,10 +57,44 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HOME" id="Kt6-kD-wV4"/>
+                    <connections>
+                        <segue destination="Zvn-UQ-dx7" kind="push" identifier="HomeToPostSegue" id="YsH-JY-30t"/>
+                        <segue destination="88O-lU-Yex" kind="push" identifier="HomeToViewSegue" id="7s4-sV-xSg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFe-Yh-Tdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="885" y="218"/>
+            <point key="canvasLocation" x="889" y="222"/>
+        </scene>
+        <!--Add Post View Controller-->
+        <scene sceneID="Sr4-YD-NmX">
+            <objects>
+                <viewController id="Zvn-UQ-dx7" customClass="EBBAddPostViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P4U-p3-BhJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yyp-rp-S4G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xt5-Mq-89S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="65"/>
+        </scene>
+        <!--Bview Post Then Comment View Controller-->
+        <scene sceneID="5Sf-R5-J96">
+            <objects>
+                <viewController id="88O-lU-Yex" customClass="EBBviewPostThenCommentViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y3U-ig-csJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yeo-He-W9b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJW-VT-2Lg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="700"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

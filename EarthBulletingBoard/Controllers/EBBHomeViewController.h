@@ -7,7 +7,10 @@
 //
 
 #import "EBBBaseUIViewController.h"
+#import "EBBHomeView.h"
+#import "EBBTableViewCell.h"
 
-@interface EBBHomeViewController : EBBBaseUIViewController
-
+@interface EBBHomeViewController : EBBBaseUIViewController <EBBHomeViewDelegate, UITableViewDelegate, UITableViewDataSource>
+@property(strong, nonatomic) EBBHomeView *homeView;
+@property (strong, nonatomic) EBBTableViewCell *postTableView;
 @end

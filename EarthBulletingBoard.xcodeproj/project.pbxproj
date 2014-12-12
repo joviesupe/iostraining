@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525F83FD1A392BC00031BD64 /* AddPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F83FC1A392BC00031BD64 /* AddPost.xib */; };
+		525F84001A39444C0031BD64 /* EBBAddPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F83FF1A39444C0031BD64 /* EBBAddPostView.m */; };
+		525F84031A3945810031BD64 /* EBBAddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F84021A3945810031BD64 /* EBBAddPostViewController.m */; };
+		525F84051A394C210031BD64 /* viewPostThenComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F84041A394C210031BD64 /* viewPostThenComment.xib */; };
+		525F84071A394E6C0031BD64 /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525F84061A394E6C0031BD64 /* commentCell.xib */; };
+		525F840A1A3960C90031BD64 /* EBBViewPostThenCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F84091A3960C90031BD64 /* EBBViewPostThenCommentView.m */; };
+		525F840D1A3961E30031BD64 /* EBBviewPostThenCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F840C1A3961E30031BD64 /* EBBviewPostThenCommentViewController.m */; };
+		525F84161A396F2B0031BD64 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F84151A396F2B0031BD64 /* Post.m */; };
+		525F84191A396F2B0031BD64 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F84181A396F2B0031BD64 /* Comment.m */; };
 		52BC9E191A368D4C008B688B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E181A368D4C008B688B /* main.m */; };
 		52BC9E1C1A368D4C008B688B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E1B1A368D4C008B688B /* AppDelegate.m */; };
 		52BC9E1F1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E1D1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld */; };
@@ -19,6 +28,10 @@
 		52BC9E4D1A36A6BD008B688B /* EBBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E4C1A36A6BD008B688B /* EBBLoginViewController.m */; };
 		52BC9E4E1A36C4BF008B688B /* EBBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E461A36A36E008B688B /* EBBLoginView.m */; };
 		52BC9E521A36D6EB008B688B /* EBBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E511A36D6EB008B688B /* EBBHomeViewController.m */; };
+		52BC9E541A37E8A1008B688B /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E531A37E8A1008B688B /* HomeView.xib */; };
+		52BC9E571A37EE00008B688B /* EBBHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E561A37EE00008B688B /* EBBHomeView.m */; };
+		52BC9E591A37F673008B688B /* PostTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC9E581A37F673008B688B /* PostTableView.xib */; };
+		52BC9E5F1A37F858008B688B /* EBBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC9E5E1A37F858008B688B /* EBBTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		525F83FC1A392BC00031BD64 /* AddPost.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddPost.xib; path = Xibs/AddPost.xib; sourceTree = "<group>"; };
+		525F83FE1A39444C0031BD64 /* EBBAddPostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBAddPostView.h; path = Views/EBBAddPostView.h; sourceTree = "<group>"; };
+		525F83FF1A39444C0031BD64 /* EBBAddPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBAddPostView.m; path = Views/EBBAddPostView.m; sourceTree = "<group>"; };
+		525F84011A3945810031BD64 /* EBBAddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBAddPostViewController.h; path = Controllers/EBBAddPostViewController.h; sourceTree = "<group>"; };
+		525F84021A3945810031BD64 /* EBBAddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBAddPostViewController.m; path = Controllers/EBBAddPostViewController.m; sourceTree = "<group>"; };
+		525F84041A394C210031BD64 /* viewPostThenComment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = viewPostThenComment.xib; path = Xibs/viewPostThenComment.xib; sourceTree = "<group>"; };
+		525F84061A394E6C0031BD64 /* commentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = commentCell.xib; path = Xibs/commentCell.xib; sourceTree = "<group>"; };
+		525F84081A3960C90031BD64 /* EBBViewPostThenCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBViewPostThenCommentView.h; path = Views/EBBViewPostThenCommentView.h; sourceTree = "<group>"; };
+		525F84091A3960C90031BD64 /* EBBViewPostThenCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBViewPostThenCommentView.m; path = Views/EBBViewPostThenCommentView.m; sourceTree = "<group>"; };
+		525F840B1A3961E30031BD64 /* EBBviewPostThenCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBviewPostThenCommentViewController.h; path = Controllers/EBBviewPostThenCommentViewController.h; sourceTree = "<group>"; };
+		525F840C1A3961E30031BD64 /* EBBviewPostThenCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBviewPostThenCommentViewController.m; path = Controllers/EBBviewPostThenCommentViewController.m; sourceTree = "<group>"; };
+		525F84141A396F2B0031BD64 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		525F84151A396F2B0031BD64 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		525F84171A396F2B0031BD64 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		525F84181A396F2B0031BD64 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		52BC9E131A368D4C008B688B /* EarthBulletingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthBulletingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BC9E171A368D4C008B688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BC9E181A368D4C008B688B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +81,12 @@
 		52BC9E4C1A36A6BD008B688B /* EBBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBLoginViewController.m; path = Controllers/EBBLoginViewController.m; sourceTree = "<group>"; };
 		52BC9E501A36D6EB008B688B /* EBBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBHomeViewController.h; path = Controllers/EBBHomeViewController.h; sourceTree = "<group>"; };
 		52BC9E511A36D6EB008B688B /* EBBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBHomeViewController.m; path = Controllers/EBBHomeViewController.m; sourceTree = "<group>"; };
+		52BC9E531A37E8A1008B688B /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeView.xib; path = Xibs/HomeView.xib; sourceTree = "<group>"; };
+		52BC9E551A37EE00008B688B /* EBBHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBHomeView.h; path = Views/EBBHomeView.h; sourceTree = "<group>"; };
+		52BC9E561A37EE00008B688B /* EBBHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBHomeView.m; path = Views/EBBHomeView.m; sourceTree = "<group>"; };
+		52BC9E581A37F673008B688B /* PostTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostTableView.xib; path = Xibs/PostTableView.xib; sourceTree = "<group>"; };
+		52BC9E5D1A37F858008B688B /* EBBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBBTableViewCell.h; path = Views/EBBTableViewCell.h; sourceTree = "<group>"; };
+		52BC9E5E1A37F858008B688B /* EBBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBBTableViewCell.m; path = Views/EBBTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +174,14 @@
 			children = (
 				52BC9E451A36A36E008B688B /* EBBLoginView.h */,
 				52BC9E461A36A36E008B688B /* EBBLoginView.m */,
+				52BC9E551A37EE00008B688B /* EBBHomeView.h */,
+				52BC9E561A37EE00008B688B /* EBBHomeView.m */,
+				52BC9E5D1A37F858008B688B /* EBBTableViewCell.h */,
+				52BC9E5E1A37F858008B688B /* EBBTableViewCell.m */,
+				525F83FE1A39444C0031BD64 /* EBBAddPostView.h */,
+				525F83FF1A39444C0031BD64 /* EBBAddPostView.m */,
+				525F84081A3960C90031BD64 /* EBBViewPostThenCommentView.h */,
+				525F84091A3960C90031BD64 /* EBBViewPostThenCommentView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -147,6 +189,10 @@
 		52BC9E401A3699BD008B688B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				525F84171A396F2B0031BD64 /* Comment.h */,
+				525F84181A396F2B0031BD64 /* Comment.m */,
+				525F84141A396F2B0031BD64 /* Post.h */,
+				525F84151A396F2B0031BD64 /* Post.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -160,6 +206,10 @@
 				52BC9E4C1A36A6BD008B688B /* EBBLoginViewController.m */,
 				52BC9E501A36D6EB008B688B /* EBBHomeViewController.h */,
 				52BC9E511A36D6EB008B688B /* EBBHomeViewController.m */,
+				525F84011A3945810031BD64 /* EBBAddPostViewController.h */,
+				525F84021A3945810031BD64 /* EBBAddPostViewController.m */,
+				525F840B1A3961E30031BD64 /* EBBviewPostThenCommentViewController.h */,
+				525F840C1A3961E30031BD64 /* EBBviewPostThenCommentViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -168,6 +218,11 @@
 			isa = PBXGroup;
 			children = (
 				52BC9E431A369D40008B688B /* LoginView.xib */,
+				52BC9E531A37E8A1008B688B /* HomeView.xib */,
+				52BC9E581A37F673008B688B /* PostTableView.xib */,
+				525F83FC1A392BC00031BD64 /* AddPost.xib */,
+				525F84041A394C210031BD64 /* viewPostThenComment.xib */,
+				525F84061A394E6C0031BD64 /* commentCell.xib */,
 			);
 			name = Xibs;
 			sourceTree = "<group>";
@@ -253,10 +308,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525F84071A394E6C0031BD64 /* commentCell.xib in Resources */,
 				52BC9E251A368D4C008B688B /* Main.storyboard in Resources */,
+				52BC9E591A37F673008B688B /* PostTableView.xib in Resources */,
 				52BC9E2A1A368D4C008B688B /* LaunchScreen.xib in Resources */,
+				525F84051A394C210031BD64 /* viewPostThenComment.xib in Resources */,
 				52BC9E441A369D40008B688B /* LoginView.xib in Resources */,
+				525F83FD1A392BC00031BD64 /* AddPost.xib in Resources */,
 				52BC9E271A368D4C008B688B /* Images.xcassets in Resources */,
+				52BC9E541A37E8A1008B688B /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +335,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BC9E1C1A368D4C008B688B /* AppDelegate.m in Sources */,
+				525F84031A3945810031BD64 /* EBBAddPostViewController.m in Sources */,
+				52BC9E5F1A37F858008B688B /* EBBTableViewCell.m in Sources */,
+				525F840D1A3961E30031BD64 /* EBBviewPostThenCommentViewController.m in Sources */,
 				52BC9E4A1A36A664008B688B /* EBBBaseUIViewController.m in Sources */,
 				52BC9E1F1A368D4C008B688B /* EarthBulletingBoard.xcdatamodeld in Sources */,
 				52BC9E4D1A36A6BD008B688B /* EBBLoginViewController.m in Sources */,
+				525F840A1A3960C90031BD64 /* EBBViewPostThenCommentView.m in Sources */,
 				52BC9E4E1A36C4BF008B688B /* EBBLoginView.m in Sources */,
+				525F84001A39444C0031BD64 /* EBBAddPostView.m in Sources */,
+				52BC9E571A37EE00008B688B /* EBBHomeView.m in Sources */,
 				52BC9E521A36D6EB008B688B /* EBBHomeViewController.m in Sources */,
 				52BC9E191A368D4C008B688B /* main.m in Sources */,
+				525F84191A396F2B0031BD64 /* Comment.m in Sources */,
+				525F84161A396F2B0031BD64 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
